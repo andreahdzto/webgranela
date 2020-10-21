@@ -1,0 +1,277 @@
+:root {
+
+/* Colors: */
+--blanco: #F8F9F2;
+--cafe-oscuro: #5E5448;
+--naranja: #F28327;
+--verde-azul: #137882;
+--beige: #F8F9F2;
+--verde-bosque: #3D7454;
+--verde-claro: #B0CC9C;	
+}
+
+* {
+box-sizing: border-box;
+}
+
+header{
+	width:1800px;
+	height:1077px;	
+	background-image: url("../images/PAGINA PRINCIPAL.png");
+	margin: auto;
+	text-align: center;
+}
+
+body{	
+width:1800px;
+color: var(--beige);
+	margin: auto;
+	text-align: center;
+}
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+}
+
+
+
+.topnav{
+	width:100%;
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	text-align: center;
+	}
+
+.topnav a{
+	display: inline-block;
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-left:53.5px;
+  margin-right: 53.5;
+ 
+	
+}
+
+.cont-topnav{	
+	display: inline-block;
+	
+	
+}
+
+.categorias{
+	text-align: center;
+	margin-top: 55px;
+}
+
+.categorias img{
+	text-align: center;
+	margin-top: 55px;
+}
+
+.por-que{
+	text-align: center;
+	margin-top: 55px;
+}
+
+.explicacion{
+ width:1126px;
+ height: 112px;
+ margin-left: 352px;
+ margin-bottom: 40px;
+ margin-top: 35px;
+	
+
+ position: relative;
+
+	
+}
+
+
+
+menu{
+font-family: 'Asap';
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 34px;
+letter-spacing: 0px;
+color: var(--verde-azul);
+margin: auto;
+}
+
+
+t1{
+font-family: "Asap";
+font-style: normal;
+font-weight:bold;
+font-size: 70px;
+line-height: 80px;
+letter-spacing: 0px;
+color: var(--naranja);
+text-align: center;
+
+}
+
+t2{
+font-family: "Kumbh Sans";
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 25px;
+letter-spacing: 0px;
+color: var(--cafe-oscuro);
+text-align: center;
+}
+
+
+
+p{
+font-family: "Kumbh Sans";
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 25px;
+letter-spacing: 0px;
+color: var(--cafe-oscuro);
+margin: 25px;
+}
+
+
+.columnas{
+	
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	}
+
+.col{
+  display: inline-block;	
+  margin-top: 0px;
+  margin-left: 35px;
+  margin-right: 35px;
+  width: 300px;
+  padding: 0px;
+  text-align:left;	
+}
+
+.st{
+  display: inline-block;	
+  margin-top: 0px;
+  margin-left: 35px;
+  margin-right: 35px;
+  width: 300px;
+  padding: 0px;
+	text-align:center;	
+}
+
+footer{
+top: 3711px;
+left: 0px;
+width: 1800px;
+height: 237px;
+margin:auto;	
+text-align: left;
+
+}
+
+.suscripcion{
+background-color: var(--verde-claro);
+height:287px; 
+position: relative;	
+}
+news{
+	
+margin-left: 125px;
+font-family: "Kumbh Sans";
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+letter-spacing: 0px;
+color: var(--beige);
+text-align: left;
+}
+
+st2{
+margin-left: 125px;
+font-family: "Kumbh Sans";
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+letter-spacing: 0px;
+color: var(--beige);
+text-align: left;	
+	
+}
+
+.news img{
+	margin-left:105px;
+	padding: 20px;
+
+}
+
+.columnas2{
+	display: inline-block;
+	position: relative;
+	width: 560px;
+	margin-left: 1150px;
+	}
+
+.col2{
+  display: block;	
+  margin-left: 20px;
+  margin-right: 20px;
+  float: left;
+  width: 100px;
+}
+.listas{
+height: 370px;	
+background-color: var(--verde-bosque);
+display: block;
+}
+
+.cont_listas {
+	
+	
+	
+
+left:5%;
+position: relative;
+}
+
+.colum1-2 {
+    float: left;
+    width: 50%;
+    padding: 8px;
+}
+
+.colum2-2 {
+    float: left;
+    width: 50%;
+    padding: 8px;
+}
+
+
+t3{
+font-family: "Kumbh Sans";
+font-style: normal;	
+font-size: 25px;
+color: var(--beige);
+line-height: 25px;	
+text-align: left;
+margin-top: 35px;
+}
+
+li{
+font-family: "Kumbh Sans";
+font-style: normal;	
+font-size: 25px;
+color: var(--beige);
+line-height: 25px;	
+text-align: left;
+width:650px;
+padding: 8px;
+}
