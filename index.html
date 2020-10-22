@@ -1,150 +1,337 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+:root {
+
+/* Colors: */
+--blanco: #F8F9F2;
+--cafe-oscuro: #5E5448;
+--naranja: #F28327;
+--verde-azul: #137882;
+--beige: #F8F9F2;
+--verde-bosque: #3D7454;
+--verde-claro: #B0CC9C;	
+}
+
+* {
+box-sizing: border-box;
+}
+
+header{
+	background-image:url("../images/PAGINA PRINCIPAL2.jpg");
+	margin: auto;
+	text-align: center;
+}
+
+body{	
+width:1800px;
+color: var(--beige);
+	margin: auto;
+	text-align: center;
+}
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+}
+
+/*Navegador*/
+.justify-content-center {
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+
+.navbar{
+	width:100%;
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	align-items: center;
+	}
+
+.navbar a{
+ display: inline-block;
+	text-align: center;
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-left:53.5px;
+  margin-right: 53.5;
+ text-decoration-line: none;
+
+}
+
+ h{
+font-family: 'Asap', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 30px;
+line-height: 34px;
+letter-spacing: 0px;
+color: var(--verde-azul);
+margin: auto;
+
+}
+
+.navbar h:hover{
+border-bottom: 5px solid #137882;
+align-items: center;	
+}
+
+/*Categorias*/
+
+.categorias{
+	text-align: center;
+	margin-top: 55px;
+	text-decoration-line: none;
+}
+
+.categorias img{
+	text-align: center;
+	margin-top: 55px;
+}
+
+.deslizable{
+display: inline-block;
+position:relative;
+}
+
+.deslizable img{
+display: block;	
+  margin-left: 20px;
+  margin-right: 20px;
+  float: left;
+  	
 	
-<title>DP_T7_HERNANDEZTORRES</title>
+}
+
+
+.por-que{
+	text-align: center;
+	margin-top: 55px;
+	text-decoration-line: none;
+}
+
+.explicacion{
+ width:1126px;
+ height: 112px;
+ margin-left: 352px;
+ margin-bottom: 40px;
+ margin-top: 35px;
+	
+text-decoration-line: none;
+ position: relative;
+
+	
+}
+
+.descripcion{
+margin-bottom: 60px;	
+	text-decoration-line: none;
+}
+
+
+
+t1{
+font-family: 'Asap', sans-serif;
+font-style: normal;
+font-weight:bold;
+font-size: 70px;
+line-height: 80px;
+letter-spacing: 0px;
+color: var(--naranja);
+text-align: center;
+text-shadow: 0px 3px 6px rgba(94,84,72,0.31);
+}
+
+t2{
+font-family: 'Kumbh Sans', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 25px;
+letter-spacing: 0px;
+color: var(--cafe-oscuro);
+text-align: center;
+}
+
+
+
+p{
+font-family: 'Kumbh Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 25px;
+letter-spacing: 0px;
+color: var(--cafe-oscuro);
+
+}
+
+
+.columnas{
+	
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	}
+
+.col{
+  display: inline-block;	
+  margin-top: 0px;
+  margin-left: 35px;
+  margin-right: 35px;
+  width: 300px;
+  padding: 0px;
+  text-align:left;	
+}
+
+.st{
+  display: inline-block;	
+  margin-top: 0px;
+  margin-left: 35px;
+  margin-right: 35px;
+  width: 300px;
+  padding: 0px;
+	text-align:center;	
+}
+
+footer{
+top: 3711px;
+left: 0px;
+width: 1800px;
+height: 237px;
+margin:auto;	
+text-align: left;
+
+}
+
+.suscripcion{
+background-color: var(--verde-claro);
+height:287px; 
+position: relative;	
+}
+news{
+	
+margin-left: 125px;
+font-family: 'Kumbh Sans', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+letter-spacing: 0px;
+color: var(--beige);
+text-align: left;
+}
+
+st2{
+margin-left: 125px;
+font-family: 'Kumbh Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+letter-spacing: 0px;
+color: var(--beige);
+text-align: left;	
+	
+}
+
+.news img{
+	margin-left:105px;
+	padding: 20px;
+
+}
+
+.columnas2{
+	display: inline-block;
+	position: relative;
+	width: 560px;
+	margin-left: 1150px;
+	}
+
+.col2{
+  display: block;	
+  margin-left: 20px;
+  margin-right: 20px;
+  float: left;
+  width: 100px;
+}
+.listas{
+height: 370px;	
+background-color: var(--verde-bosque);
+display: block;
+}
+
+.cont_listas {
+	
+	
 	
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="../DP_T7_HERNANDEZTORRES/css/style.css">
-<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-	
-	
-</head>
+left:5%;
+position: relative;
+}
 
-<body>
-	<header class="page-head" style="width:1800px;height:1077px;">
-		<nav class="navbar h-auto navbar-expand-sm justify-content-center">
-		<ul class="navbar-nav">
-    <li class="nav-item">
-		<a class="nav-link" href="../DP_T6_HERNANDEZTORRES/DP_T5_HERNANDEZTORRES.html#PRODUCTOS"  > <h>PRODUCTOS</h></a>
-    </li>
-	<li class="nav-item">		
-		<a class="nav-link" href="../DP_T6_HERNANDEZTORRES/DP_T5_HERNANDEZTORRES.html#SUCURSALES"  > <h>SUCURSALES</h></a>
-	</li>	
-	<li class="nav-item">	
-		<a href="../DP_T6_HERNANDEZTORRES/DP_T5_HERNANDEZTORRES.html#PRINCIPAL" > <img src="../DP_T6_HERNANDEZTORRES/images/Logo.png" style="width:280px;height:183px;" alt="logo"> </a>
-	</li>		
-	<li class="nav-item">
-		<a href="../DP_T6_HERNANDEZTORRES/DP_T5_HERNANDEZTORRES.html#NOSOTROS" > <h>NOSOTROS</h></a>
-	</li>			
-	<li class="nav-item">		
-		<a href="../DP_T6_HERNANDEZTORRES/DP_T5_HERNANDEZTORRES.html#CONTACTO"  > <h>CONTACTO</h></a>
-	</li>		
-	<li class="nav-item">	
-		<a href="../DP_T6_HERNANDEZTORRES/DP_T5_HERNANDEZTORRES.html#PRINCIPAL"><img src="../DP_T6_HERNANDEZTORRES/images/BUSCADOR.png" alt="buscador"</a>
-	</li>		
-	</ul>
-	</nav>
-	</header>
+.colum1-2 {
+    float: left;
+    width: 50%;
+    padding: 8px;
+}
+
+.colum2-2 {
+    float: left;
+    width: 50%;
+    padding: 8px;
+}
+
+
+t3{
+font-family: 'Kumbh Sans', sans-serif;
+font-style: normal;	
+font-size: 25px;
+color: var(--beige);
+line-height: 25px;	
+text-align: left;
+margin-top: 35px;
+}
+
+li{
+font-family: 'Kumbh Sans', sans-serif;
+font-style: normal;	
+font-size: 25px;
+color: var(--beige);
+line-height: 25px;	
+text-align: left;
+width:650px;
+padding: 8px;
+}
+
+/*Terminos y Condiciones*/
+.terminosycondiciones{
+text-align: left;	
+padding-top: 115px;
+padding-bottom: 160px;	
+}
+.texto{
+text-align: left;
+}
+.parrafo{
+ padding-top: 60px;	
 	
-	<main class="page-container">
-		<section class= "categorias" id="seccion2">
-		
-	   <t1>Categorías</t1> 
-		
-			<div class="deslizable">
-		<img scr="images/arrowL.png" alt= "Arrow1">
-		<img src="../DP_T6_HERNANDEZTORRES/images/Grupo.png" alt="grupo" class= "grupo">
-		<img scr="images/arrowR.png" alt= "Arrow2">	
-			</div>
-			<img src="../DP_T6_HERNANDEZTORRES/images/Promocional.png"  alt="promo" class= "promo" >
 	
-		</section>	
-			
-			
-	<section class="descripcion" id= "seccion3">
-		<article class="por-que">
-			                        <t1>¿Por qué a Granel?</t1>
-			
-			<div class="explicacion"><p>Porque somos apasionados por el cuidado del medio ambiente y el bienestar de las personas ofreciéndoles alternativas para hacer su alimentación más saludable y su estilo de vida más armónico con la naturaleza, apoyando en el camino a pequeños productores</p> </div>
-		
-			<img src="../DP_T6_HERNANDEZTORRES/images/iconos.png" alt="iconos" class= "iconos">
-				
-			<div class="columnas">
-			<div class="st"> <t2>ORGANICO</t2> </div> 
-			<div class="st"> <t2>NATURAL</t2> </div> 
-			<div class="st"> <t2>BIODEGRADABLE</t2> </div> 
-			<div class="st"> <t2>LOCAL</t2> </div> 
-			</div>
-				
-			<div class="columnas">
-			
-			<div class="col"><img src="../DP_T6_HERNANDEZTORRES/images/imagen1.png" alt="imagen1"></div>
-			<div class="col"><img src="../DP_T6_HERNANDEZTORRES/images/imagen2.png" alt="imagen2"></div>
-			<div class="col"><img src="../DP_T6_HERNANDEZTORRES/images/imagen3.png" alt="imagen3"></div>
-			<div class="col"><img src="../DP_T6_HERNANDEZTORRES/images/imagen4.png" alt="imagen4"></div>
+}
+st3{
+
+font-family: 'Kumbh Sans', sans-serif;
+font-weight: 600;
+font-size: 28px;
+letter-spacing: 0px;
+color: var(--cafe-oscuro);
+text-align: left;	
 	
-			</div>
-			
-				<div class="Columnas">
-		<div class="col" ><p>- Reduces la cantidad de envases que consumes. Puedes ir a la tienda con tus bolsas de tela, tus tarros o recipientes y reutilizarlos infinitas veces.</p>	 </div>
-		<div class="col" > <p>- Desperdicias menos. Al comprar al peso estas controlando la cantidad de producto que quieres llevarte y por lo tanto gastas lo justo. Solo compras lo que necesitas y lo bueno es que pueden ser tanto cantidades pequeñas , como grandes cantidades.</p></div>
-		<div class="col" > <p>- Ahorras en costes ya que, al contrario de los productos procesados, el coste del envasado es mucho menor y los procesos son más simples.</p></div>
-		<div class="col" ><p>- Es muy satisfactorio saber que estas contribuyendo a que haya menos bolsas de plástico en el medio ambiente, y eso, es genial.</p> </div>
-		</div>
-	
-			
-				
-			
-		
-				
-			
-	</article>
-	</section>
-	</main>
-	
-	<footer>
-	<section class="suscripcion" id= "seccion4">
-	 <div class="news"> 
-		
-		<news>Suscríbete a nuestro Newstter </news> 
-		
-		<div><st2>Obtén las mejores ofertas y beneficios de nuestros productos</st2>
-		          <img src="../DP_T6_HERNANDEZTORRES/images/campo.png"  alt="Campo">
-		 </div>
-		  <div class="columnas2">
-			
-			<div class="col2"><img src="../DP_T6_HERNANDEZTORRES/images/facebookw.png" alt="facebook"></div>
-			<div class="col2"><img src="../DP_T6_HERNANDEZTORRES/images/twitterw.png" alt="twitter"></div>
-			<div class="col2"><img src="../DP_T6_HERNANDEZTORRES/images/instagramw.png" alt="instagram"></div>
-	
-			</div>
-		 	
-		 
-		</div>
-		
-      </section>
-		<section class="listas" id="seccion5">
-		<div class="cont_listas">
-			<div class="colum1-2">
-				<t3>Información</t3>
-			<ul>
-			  <li>Términos y condiciones</li>
-			  <li>Aviso de Privacidad</li>
-			  <li>Acerca de Nosotros</li>
-			  <li>FAQS</li>
-			</ul>
-		</div>	
-			
-		<div class="colum2-2">
-				<t3>Contáctanos</t3>
-			<ul>
-			  <li>Granela®</li>
-			  <li>Calle de Morelos 2178-H, Ladron de Guevara, 44600 Guadalajara, Jal.</li>
-			  <li>3318924840</li>
-			  <li>ventas@granela.mx</li>
-			</ul>
-		</div>	
-			</div>
-		</section>
-	
-	</footer>
-</body>
-</html>
+}
+t4{
+font-family: 'Asap', sans-serif;;
+font-weight: 500;	
+font-size: 70px;
+color: var(--cafe-oscuro);
+line-height: 25px;	
+text-align: left;
+margin-top: 35px;
+}
