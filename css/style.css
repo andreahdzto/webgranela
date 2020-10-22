@@ -17,7 +17,7 @@ box-sizing: border-box;
 header{
 	width:1800px;
 	height:1077px;	
-	background-image: url("../images/PAGINA PRINCIPAL.png");
+	background-image: url("../../DP_T6_HERNANDEZTORRES/images/PAGINA PRINCIPAL2.jpg");
 	margin: auto;
 	text-align: center;
 }
@@ -36,30 +36,29 @@ img{
 	padding: 0;
 }
 
+.justify-content-center {
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
 
-
-.topnav{
+.navbar{
 	width:100%;
 	position: relative;
 	display: inline-block;
 	overflow: hidden;
-	text-align: center;
+	align-items: center;
+	vertical-align: middle;
 	}
 
-.topnav a{
-	display: inline-block;
+.navbar a{
+ display: inline-block;
+	text-align: center;
   box-sizing: border-box;
   margin-top: 20px;
   margin-left:53.5px;
   margin-right: 53.5;
- 
-	
-}
-
-.cont-topnav{	
-	display: inline-block;
-	
-	
+ text-decoration-line: none;
+vertical-align: middle;
 }
 
 .categorias{
@@ -71,6 +70,21 @@ img{
 	text-align: center;
 	margin-top: 55px;
 }
+
+.deslizable{
+display: inline-block;
+position:relative;
+}
+
+.deslizable img{
+display: block;	
+  margin-left: 20px;
+  margin-right: 20px;
+  float: left;
+  	
+	
+}
+
 
 .por-que{
 	text-align: center;
@@ -90,22 +104,30 @@ img{
 	
 }
 
+.descripcion{
+margin-bottom: 60px;	
+}
 
 
-menu{
-font-family: 'Asap';
+.navbar h{
+font-family: 'Asap', sans-serif;
 font-style: normal;
-font-weight: bold;
+font-weight: 800;
 font-size: 30px;
 line-height: 34px;
 letter-spacing: 0px;
 color: var(--verde-azul);
 margin: auto;
+
 }
 
+.navbar h:hover{
+border-bottom: 5px solid #137882;
+align-items: center;	
+}
 
 t1{
-font-family: "Asap";
+font-family: 'Asap', sans-serif;
 font-style: normal;
 font-weight:bold;
 font-size: 70px;
@@ -113,11 +135,11 @@ line-height: 80px;
 letter-spacing: 0px;
 color: var(--naranja);
 text-align: center;
-
+text-shadow: 0px 3px 6px rgba(94,84,72,0.31);
 }
 
 t2{
-font-family: "Kumbh Sans";
+font-family: 'Kumbh Sans', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 25px;
@@ -130,7 +152,7 @@ text-align: center;
 
 
 p{
-font-family: "Kumbh Sans";
+font-family: 'Kumbh Sans', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 25px;
@@ -186,7 +208,7 @@ position: relative;
 news{
 	
 margin-left: 125px;
-font-family: "Kumbh Sans";
+font-family: 'Kumbh Sans', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 35px;
@@ -197,7 +219,7 @@ text-align: left;
 
 st2{
 margin-left: 125px;
-font-family: "Kumbh Sans";
+font-family: 'Kumbh Sans', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 25px;
@@ -256,7 +278,7 @@ position: relative;
 
 
 t3{
-font-family: "Kumbh Sans";
+font-family: 'Kumbh Sans', sans-serif;
 font-style: normal;	
 font-size: 25px;
 color: var(--beige);
@@ -266,7 +288,7 @@ margin-top: 35px;
 }
 
 li{
-font-family: "Kumbh Sans";
+font-family: 'Kumbh Sans', sans-serif;
 font-style: normal;	
 font-size: 25px;
 color: var(--beige);
