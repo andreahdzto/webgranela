@@ -15,9 +15,7 @@ box-sizing: border-box;
 }
 
 header{
-	width:1800px;
-	height:1077px;	
-	background-image: url("../../DP_T6_HERNANDEZTORRES/images/PAGINA PRINCIPAL2.jpg");
+	background-image:url("../images/PAGINA PRINCIPAL2.jpg");
 	margin: auto;
 	text-align: center;
 }
@@ -36,6 +34,7 @@ img{
 	padding: 0;
 }
 
+/*Navegador*/
 .justify-content-center {
     -ms-flex-pack: center!important;
     justify-content: center!important;
@@ -47,7 +46,6 @@ img{
 	display: inline-block;
 	overflow: hidden;
 	align-items: center;
-	vertical-align: middle;
 	}
 
 .navbar a{
@@ -58,12 +56,32 @@ img{
   margin-left:53.5px;
   margin-right: 53.5;
  text-decoration-line: none;
-vertical-align: middle;
+
 }
+
+ h{
+font-family: 'Asap', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 30px;
+line-height: 34px;
+letter-spacing: 0px;
+color: var(--verde-azul);
+margin: auto;
+
+}
+
+.navbar h:hover{
+border-bottom: 5px solid #137882;
+align-items: center;	
+}
+
+/*Categorias*/
 
 .categorias{
 	text-align: center;
 	margin-top: 55px;
+	text-decoration-line: none;
 }
 
 .categorias img{
@@ -89,6 +107,7 @@ display: block;
 .por-que{
 	text-align: center;
 	margin-top: 55px;
+	text-decoration-line: none;
 }
 
 .explicacion{
@@ -98,7 +117,7 @@ display: block;
  margin-bottom: 40px;
  margin-top: 35px;
 	
-
+text-decoration-line: none;
  position: relative;
 
 	
@@ -106,25 +125,10 @@ display: block;
 
 .descripcion{
 margin-bottom: 60px;	
+	text-decoration-line: none;
 }
 
 
-.navbar h{
-font-family: 'Asap', sans-serif;
-font-style: normal;
-font-weight: 800;
-font-size: 30px;
-line-height: 34px;
-letter-spacing: 0px;
-color: var(--verde-azul);
-margin: auto;
-
-}
-
-.navbar h:hover{
-border-bottom: 5px solid #137882;
-align-items: center;	
-}
 
 t1{
 font-family: 'Asap', sans-serif;
@@ -159,7 +163,7 @@ font-size: 25px;
 line-height: 25px;
 letter-spacing: 0px;
 color: var(--cafe-oscuro);
-margin: 25px;
+
 }
 
 
@@ -296,4 +300,38 @@ line-height: 25px;
 text-align: left;
 width:650px;
 padding: 8px;
+}
+
+/*Terminos y Condiciones*/
+.terminosycondiciones{
+text-align: left;	
+padding-top: 115px;
+padding-bottom: 160px;	
+}
+.texto{
+text-align: left;
+}
+.parrafo{
+ padding-top: 60px;	
+	
+	
+}
+st3{
+
+font-family: 'Kumbh Sans', sans-serif;
+font-weight: 600;
+font-size: 28px;
+letter-spacing: 0px;
+color: var(--cafe-oscuro);
+text-align: left;	
+	
+}
+t4{
+font-family: 'Asap', sans-serif;;
+font-weight: 500;	
+font-size: 70px;
+color: var(--cafe-oscuro);
+line-height: 25px;	
+text-align: left;
+margin-top: 35px;
 }
