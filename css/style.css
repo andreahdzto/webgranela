@@ -15,7 +15,7 @@ box-sizing: border-box;
 }
 
 header{
-	background-image:url("../images/PAGINA PRINCIPAL2.jpg");
+	
 	margin: auto;
 	text-align: center;
 }
@@ -35,6 +35,13 @@ img{
 }
 
 /*Navegador*/
+
+.bgimage{
+	background-image:url("../images/PAGINA PRINCIPAL2.jpg");
+	width:1800px;
+	height:1077px;
+}
+
 .justify-content-center {
     -ms-flex-pack: center!important;
     justify-content: center!important;
