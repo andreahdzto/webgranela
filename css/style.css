@@ -83,6 +83,28 @@ border-bottom: 5px solid #137882;
 align-items: center;	
 }
 
+/*Barra cafe*/
+
+.bar{
+background-color: rgba(231,232,227,0.5);
+height:67px; 
+width: 1800px;
+position: relative;	
+display: block;
+vertical-align: middle;
+margin-bottom: 120px;
+}
+
+nt{
+font-family: 'Asap', sans-serif;
+font-weight:500;
+font-size: 30px;
+letter-spacing: 0px;
+color: rgba(94,84,72,0.60);
+padding: 20px;
+
+}	
+
 /*Categorias*/
 
 .categorias{
@@ -132,7 +154,7 @@ text-decoration-line: none;
 
 .descripcion{
 margin-bottom: 60px;	
-	text-decoration-line: none;
+text-decoration-line: none;
 }
 
 
@@ -267,9 +289,6 @@ display: block;
 }
 
 .cont_listas {
-	
-	
-	
 
 left:5%;
 position: relative;
@@ -315,8 +334,12 @@ text-align: left;
 padding-top: 115px;
 padding-bottom: 160px;	
 }
+
+
 .texto{
-text-align: left;
+text-align: center;
+;
+	
 }
 .parrafo{
  padding-top: 60px;	
