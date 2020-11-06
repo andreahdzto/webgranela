@@ -89,8 +89,9 @@ li a, .dropbtn {
   text-decoration: none;
 }
 .dropdown:hover .dropbtn {
- border-bottom: 5px solid #137882;
+
 align-items: center;	
+	text-decoration: none;
 }
 
 li.dropdown {
@@ -101,7 +102,7 @@ li.dropdown {
   display: none;
   position: absolute;
   background-color: rgba(248,249,242,0.8);
-  min-width: 160px;
+  min-width: 100%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 4;
   border-radius: 5px;
@@ -167,8 +168,13 @@ font-size: 30px;
 letter-spacing: 0px;
 color: rgba(94,84,72,0.60);
 padding: 20px;
-
 }	
+
+
+.bar a:hover{
+ text-decoration: none;	
+ border-bottom: 5px rgba(94,84,72,0.60);		
+}
 
 /*Categorias*/
 
